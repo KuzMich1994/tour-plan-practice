@@ -386,6 +386,25 @@ img {
   margin-left: 108px;
 }
 
+.navbar-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 31px 0;
+  list-style: none;
+}
+
+.navbar-bottom__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -444,5 +463,9 @@ img {
   color: #333333;
   font-size: 14px;
   line-height: 18px;
+}
+
+.navigation {
+  background-color: #0A223D;
 }
 /*# sourceMappingURL=style.css.map */
