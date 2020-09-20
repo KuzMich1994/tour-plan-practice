@@ -381,6 +381,11 @@ img {
   width: 177px;
 }
 
+.navbar__search {
+  margin-right: auto;
+  margin-left: 108px;
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
